@@ -19,16 +19,11 @@ public class baseTest {
 	   public static FileReader fr;
 	    @BeforeTest
        public void setUp() throws IOException {
-    	   if(driver==null) {
-    		  
-    		   FileReader fr = new FileReader("C:\\Users\\revan\\eclipse-workspace\\TestGoogle\\src\\test\\resources\\config.properties");
-    		   prop.load(fr);
-    	   }
-    	   if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
+    	
     			WebDriverManager.chromedriver().setup();  //base
     			driver = new ChromeDriver(); 
-    			driver.get(prop.getProperty("testUrl"));
-    	   }
+    			driver.get("https://www.google.com/");
+    	   
        }
 	    @AfterTest
 	       public void tearDown() {
