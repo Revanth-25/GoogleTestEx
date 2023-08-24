@@ -24,7 +24,6 @@ public class baseTest {
     			WebDriverManager.chromedriver().setup();  //base
     			driver = new ChromeDriver(); 
     			driver.get("https://www.google.com/");
-	                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     	   
        }
 	    @AfterTest
