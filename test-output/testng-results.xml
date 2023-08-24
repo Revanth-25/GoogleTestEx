@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-24T12:00:09 IST" name="Google Test Suite" finished-at="2023-08-24T12:00:28 IST" duration-ms="19143">
+    <groups>
+    </groups>
+    <test started-at="2023-08-24T12:00:09 IST" name="Google Test" finished-at="2023-08-24T12:00:28 IST" duration-ms="19143">
+      <class name="testcases.Search">
+        <test-method signature="testButton()[pri:0, instance:testcases.Search@6150c3ec]" started-at="2023-08-24T12:00:22 IST" name="testButton" finished-at="2023-08-24T12:00:28 IST" duration-ms="6343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testButton -->
+      </class> <!-- testcases.Search -->
+      <class name="testcases.Working">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Working@327514f]" started-at="2023-08-24T12:00:09 IST" name="setUp" finished-at="2023-08-24T12:00:15 IST" duration-ms="5441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="nameTest()[pri:0, instance:testcases.Working@327514f]" started-at="2023-08-24T12:00:15 IST" name="nameTest" finished-at="2023-08-24T12:00:22 IST" duration-ms="7193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Working@327514f]" started-at="2023-08-24T12:00:28 IST" name="tearDown" finished-at="2023-08-24T12:00:28 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Working -->
+    </test> <!-- Google Test -->
+  </suite> <!-- Google Test Suite -->
+</testng-results>
